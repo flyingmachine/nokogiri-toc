@@ -1,4 +1,4 @@
 require 'nokogiri-toc'
 
-NokogiriTOC.run(File.read("example.html"))
+puts NokogiriTOC.run(File.read("example.html"))
 
